@@ -1,0 +1,88 @@
+{
+    "title": "Klik på 2 links - Materialeplatformen",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 930,
+            "height": 1039,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://materialeplatformen.dk/bookpage/133919457",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://materialeplatformen.dk/bookpage/133919457",
+                    "title": "Materialeplatformen"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Links"
+                ],
+                [
+                    "#tabcomponent3-tab-button"
+                ],
+                [
+                    "xpath///*[@id=\"tabcomponent3-tab-button\"]"
+                ],
+                [
+                    "pierce/#tabcomponent3-tab-button"
+                ]
+            ],
+            "offsetY": 24.78125,
+            "offsetX": 46.09375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Links"
+                ],
+                [
+                    "#tabcomponent3-tab-button"
+                ],
+                [
+                    "xpath///*[@id=\"tabcomponent3-tab-button\"]"
+                ],
+                [
+                    "pierce/#tabcomponent3-tab-button"
+                ]
+            ],
+            "offsetY": 32.78125,
+            "offsetX": 50.03125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Kropsbårne kameraer (Bodycams)[role=\"link\"]"
+                ],
+                [
+                    "app-root div:nth-of-type(2) a"
+                ],
+                [
+                    "xpath///*[@id=\"tabcomponent3-tab-panel\"]/table/tbody/tr[2]/td[2]/a"
+                ],
+                [
+                    "pierce/app-root div:nth-of-type(2) a"
+                ],
+                [
+                    "text/Kropsbårne kameraer"
+                ]
+            ],
+            "offsetY": 11.78125,
+            "offsetX": 97.015625
+        }
+    ]
+}
